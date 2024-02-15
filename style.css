@@ -1,0 +1,218 @@
+/*
+Theme Name: BlankSlate Child
+Theme URI: https://github.com/tidythemes/blankslate
+Template: blankslate
+Author: TidyThemes
+Author URI: https://github.com/tidythemes
+Description: Donations: https://calmestghost.com/donate. BlankSlate is the definitive WordPress boilerplate starter theme. We've carefully constructed the most clean and minimalist theme possible for designers and developers to use as a base to build websites for clients or to build completely custom themes from scratch. Clean, simple, unstyled, semi-minified, unformatted, and valid code, SEO-friendly, jQuery-enabled, no programmer comments, standardized and as white label as possible, and most importantly, the CSS is reset for cross-browser-compatability and no intrusive visual CSS styles have been added whatsoever. A perfect skeleton theme. For support and suggestions, go to: https://github.com/tidythemes/blankslate/issues. Thank you.
+Tags: accessibility-ready,one-column,two-columns,custom-menu,featured-images,microformats,sticky-post,threaded-comments,translation-ready
+Version: 2023.1699284405
+Updated: 2023-11-06 16:26:45
+*/
+
+/* GENERAL */
+
+body
+{
+  font-family: Syne !important;
+}
+
+
+
+/*HEADER*/
+
+/*faire disparaitre la bande blanche qui se place en tant que header, sous la nav*/
+header a.post-edit-link 
+{
+  display: none !important;
+}
+
+/*faire disparaitre la couleur violette de la balise a href de la nav*/
+#admin-text
+{
+  color: initial;
+}
+
+
+/* Formulaire de contact : */
+
+
+/* FORMULAIRE COMMANDE */
+
+/* Partie 1 - "Votre commande" */
+
+.container_1 
+{
+  display: flex;
+  justify-content: center;
+}
+
+.group_input 
+{
+  display: flex;
+}
+
+.input_text 
+{
+  font-family: var(--e-global-typography-primary-font-family);
+  width: 51px;
+  height: 58px;
+  font-size: 16px;
+  border-radius: 5px 0px 0px 5px !important;
+  align-self: flex-start;
+  text-align: center;
+  border: none;
+}
+
+.button-group 
+{
+  height: 58px;
+  border-radius: 0px 5px 5px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: flex-start;
+  background-color: #FFFFFF;
+}
+
+.button 
+{
+  height: 60px;
+  width: 31px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #DC9F96;
+}
+
+.v_plus 
+{
+  border-radius: 0px 5px 0px 0px;
+  height: 30px;
+}
+
+.v_moins 
+{
+  border-radius: 0px 0px 5px 0px;
+  border-top: solid 1px;
+  height: 30px;
+}
+
+
+.ok-button 
+{
+  width: 100px;
+  height: 58px;
+  margin-left: 15px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  border: none;
+  background-color: #E0B9B4;
+}
+
+
+
+/* Partie 2 : "Vos informations / livraison" */
+
+.separator 
+{
+  border-top: 1px solid #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container_2 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formu 
+{
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.font_titre
+{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color:#FFFFFF;
+  margin-bottom: 30px;
+}
+
+input.wpcf7-form-control.wpcf7-text
+{
+  width: 383px !important;
+  height: 71px !important;
+  border-radius: 7px !important;
+  margin-top: 10px;
+  margin-bottom: 20px !important;
+  border: none;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04) !important;
+}
+
+
+.separator_2 
+{
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+
+.submit_align
+{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 198px;
+  height: 55px;
+  margin-top: 15px;
+  color: #FFFFFF;
+  border: none;
+  background-color: #E0B9B4;
+  border-radius: 5px;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 37px;
+}
+
+.wpcf7-response-output
+{
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 25px;
+  border-color: red !important;
+  margin: 10px !important;
+}
+
+/* Font de la Partie 2 */
+
+.container_2 label
+{
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 24px;
+  color:#FFFFFF;
+}
+
+.font_image
+{
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color:#FFFFFF;
+}
+
