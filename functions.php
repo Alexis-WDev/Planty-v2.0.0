@@ -25,6 +25,10 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 // END ENQUEUE PARENT ACTION
 
 
+
+
+//AJOUT DU HOOK "ADMIN"
+
 add_filter('wp_nav_menu_items','add_admin_link', 10, 2);
 
 function add_admin_link( $items, $args ) 
